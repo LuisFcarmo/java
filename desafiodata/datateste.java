@@ -5,6 +5,7 @@ public class datateste {
         data.dia = 1;
         data.mes = 1;
         data.ano = 2002;
-        System.out.printf("%d %d %d", data.dia, data.mes, data.ano);
+        String saida = data.data_formatada();
+        System.err.println(saida);
     }
 }
