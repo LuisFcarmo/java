@@ -1,3 +1,4 @@
+package codigos_teste;
 import java.util.Scanner;
 
 public class media_nota {

@@ -1,3 +1,4 @@
+package codigos_teste;
 import java.util.Scanner;
 public class calculadora_java {
     public static void main(String[] args) {
