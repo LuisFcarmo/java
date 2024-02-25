@@ -1,0 +1,36 @@
+sql -> linguagem de consulta estrutrurada
+
+4 partes
+	DML (DATA MANIPULATION LANGUAGEM) SELECT, UPDATE, DELETE, INSERT
+	DCL (DATA CONTROL LANGUAGEM) GRANT, DENY, REVOKE (PARTE DE SEGURANÇA DE DADOS)
+	DDL (DATA DEFINITION LINGUAGEM) CREATE, ALTER, DROP (ESTRUTURA DO BANCO DE DADOS)
+ 	TCL (TRANSATION CONTROL LANGUAGEM) BEGIN TRANS, COMMIT TRANS, ROLLBACK {
+ 		exemplo de transação no banco de dados -> varias operações que devem ser executadas em sequencia
+ 		IF TRANSAÇÃO CERTO = COMMIT FAZER A TRANSAÇÃO
+ 		IF TRANSAÇÃO ERRADO = ROLLBACK VOLTAR O BANCO DE DADOS PARA A VERSÃO ANTES DO PROCESSO
+ 		
+ 	}
+
+
+
+relacionamento de tabelas
+	foren key chave estrangeira fk
+	ou seja uma outra coluna em outra tabela que mostra a relação entre duas tabelas
+	
+exemplo
+uma mãe -> varios filhos
+relação de 1 para muitos
+
+FK + UNIQUE (essa chave faz com que o elemento seja unico na chave associado)
+
+um homem é casado com -> uma mulher
+
+relação de 1 para 1
+
+tabela tio e sobrinhos
+
+um tia pode ter varios sobrinhos e um sobrinho pode ter varios tios
+
+	tio -> sobrinhos -> tios
+	neste caso uma tabela intermediaria para realizar as relações
+	

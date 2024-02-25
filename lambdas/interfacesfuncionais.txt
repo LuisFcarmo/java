@@ -1,0 +1,10 @@
+resumo de interfaces funcionais em java
+Assinatura | nome
+nada -> T | supplier não recebe nenhum parametro e retorna algo
+T -> nada | consumer recebe parametro mas não retorna nada
+T -> T | recebe um parametro e retorna um parametro do mesmo tipo
+T,T -> T | binaryOperator recebe dois parametros e retorna um
+S -> T  | Function recebe um tipo retorna um elemento de outro tipo
+T -> boolean | PREDICATE recebe um tipo retorna um boolean
+
+geralmente abordado para criar metodos mais genericos e ageis
