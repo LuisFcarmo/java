@@ -1,3 +1,0 @@
-metodos
-.shift() remove o primeiro elemento do vetor e retorna ele
-.join() junta arrays e leva o parametro como padrao exe {"luiz", "Cesar"} .join('-') = luis-cesar
