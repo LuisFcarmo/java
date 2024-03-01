@@ -1,0 +1,11 @@
+existem dois tipos de erros
+
+error - são coisas mais criticas que geralmente faz a aplicação ser elimanada pelo java
+Excption - esse são as exceções e podem ser tratadadas
+exemplo
+Um metodo deveria retornar uma string mas, não retorna.
+
+Pilhas de execução exatamente igual a pilha de execução do c
+a pilha de execução para exatamente
+
+Throw é uma palavra reservada no java usada para lançar erros
